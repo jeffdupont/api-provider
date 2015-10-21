@@ -1,0 +1,27 @@
+{
+    "name": "test/api-provider",
+    "description": "Testing out plugin and require components.",
+    "authors": [
+        {
+            "name": "Jeff Dupont",
+            "email": "jeff.dupont@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:jeffdupont/api-base.git"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "test/api": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Api": "src/"
+        }
+    },
+    "version": "1.0.0"
+}
