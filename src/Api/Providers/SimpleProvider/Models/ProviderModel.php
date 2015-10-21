@@ -1,7 +1,7 @@
 <?php
 namespace Api\Providers\SimpleProvider\Models;
 
-class ProviderModel extends Api\Models\BaseModel
+class ProviderModel extends \Api\Models\BaseModel
 {
     public function __construct()
     {
