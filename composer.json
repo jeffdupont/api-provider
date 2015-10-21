@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Api": "src/"
+            "Api\\Providers\\SimpleProvider": "src/"
         }
     },
     "version": "1.0.0"
