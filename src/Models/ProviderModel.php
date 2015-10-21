@@ -1,5 +1,5 @@
 <?php
-namespace Api\Models;
+namespace Api\Providers\SimpleProvider\Models;
 
 class ProviderModel extends Api\Models\BaseModel
 {

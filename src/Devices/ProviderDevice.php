@@ -1,5 +1,5 @@
 <?php
-namespace Api\Devices;
+namespace Api\Providers\SimpleProvider\Devices;
 
 class ProviderDevice extends Api\Devices\BaseDevice
 {
